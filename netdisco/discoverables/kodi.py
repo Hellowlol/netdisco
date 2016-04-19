@@ -4,7 +4,7 @@ from . import MDNSDiscoverable
 
 # pylint: disable=too-few-public-methods
 class Discoverable(MDNSDiscoverable):
-    """Adds support for discovering sabnzbd """
+    """Adds support for discovering KODI."""
 
     def __init__(self, nd):
         super(Discoverable, self).__init__(nd, '_http._tcp.local.')
